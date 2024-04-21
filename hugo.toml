@@ -1,0 +1,43 @@
+baseURL = 'https://ritvij.me/'
+languageCode = 'en-us'
+title = 'Ritvij Srivastava'
+copyright = 'Ritvij Srivastava'
+defaultContentLanguage = "en"
+
+theme = "hugo-bearcub"
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+
+[languages]
+  [languages.en]
+    title = "Ritvij Srivastava"
+    languageName = "en-US 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+
+[params]
+  description = "This is the personal wesbite of Ritvij Srivastava"
+
+  title = "Ritvij Srivastava"
+
+  date = "2006-01-02"
+
+  themeStyle = "original"
+
+  generateSocialCard = true
+
+  [params.social]
+    github = "RitvijSrivastava"
+
+  [params.author]
+    name = "Ritvij Srivastava"
+    email = "ritvij.dev@gmail.com"
